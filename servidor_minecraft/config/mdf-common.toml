@@ -1,0 +1,29 @@
+
+[common]
+
+	#Properties relating to gameplay
+	[common.gameplay]
+		#The damage will be multiplied by this number. It affects EVERY fruit.
+		#Range: 1 ~ 999
+		damageMultiplier = 1
+		#The damage scaling will stop once the player reaches this level.
+		#Range: 1.0 ~ 999.0
+		maxScaling = 3.0
+		#If enabled, attacks will consume hunger.
+		applyHunger = true
+		#The damage scaling will stop once the player reaches this level.
+		#Range: 1 ~ 999
+		maxLevel = 30
+		#How many XP levels does it take before scaling.
+		#Range: 1 ~ 999
+		xpDivisor = 5
+
+		#Properties related to fruit griefing
+		[common.gameplay.griefing]
+			#If true, some attacks will produce (visual) debri
+			destructionDebri = true
+			#If true, allows fire attacks to light and spread fires on blocks
+			setFireToBlocks = true
+			#If true, Squid attacks will stain and dye blocks
+			stainBlocks = true
+
